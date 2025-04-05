@@ -1,4 +1,3 @@
-
 @extends('layouts.app')
 @section('content')
 
@@ -16,7 +15,7 @@
 
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb justify-content-center">
-                        <li class="breadcrumb-item"><a href="{{ route("about") }}">Home</a></li>
+                        <li class="breadcrumb-item"><a href="{{ route('about') }}">Home</a></li>
 
                         <li class="breadcrumb-item active" aria-current="page">About</li>
                     </ol>
@@ -43,14 +42,14 @@
                     <div class="d-flex align-items-center mt-4">
                         <a href="#services-section" class="custom-btn custom-border-btn btn me-4">Explore Services</a>
 
-                        <a href="{{ route("contact") }}" class="custom-link smoothscroll">Contact</a>
+                        <a href="{{ route('contact') }}" class="custom-link smoothscroll">Contact</a>
                     </div>
                 </div>
             </div>
 
             <div class="col-lg-5 col-12 mt-5 mt-lg-0">
                 <div class="about-image-wrap">
-                    <img src="images/horizontal-shot-happy-mixed-race-females.jpg" class="about-image custom-border-start img-fluid" class="about-image about-image-border-radius img-fluid" alt="">
+                    <img src="{{ asset('images/horizontal-shot-happy-mixed-race-females.jpg') }}" class="about-image custom-border-start img-fluid" alt="Happy mixed-race females image">
 
                     <div class="about-info d-flex">
                         <h4 class="text-white mb-0 me-2">20</h4>
@@ -131,7 +130,7 @@
                     <div class="reviews-thumb">
                     
                         <div class="reviews-info d-flex align-items-center">
-                            <img src="images/avatar/portrait-charming-middle-aged-attractive-woman-with-blonde-hair.jpg" class="about-image custom-border-start img-fluid" class="avatar-image img-fluid" alt="">
+                            <img src="{{ asset('images/avatar/portrait-charming-middle-aged-attractive-woman-with-blonde-hair.jpg') }}" class="about-image custom-border-start img-fluid" alt="Susan L">
 
                             <div class="d-flex align-items-center justify-content-between flex-wrap w-100 ms-3">
                                 <p class="mb-0">
@@ -150,7 +149,7 @@
                         </div>
 
                         <div class="reviews-body">
-                            <img src="images/left-quote.png" class="about-image custom-border-start img-fluid" class="quote-icon img-fluid" alt="">
+                            <img src="{{ asset('images/left-quote.png') }}" class="about-image custom-border-start img-fluid" alt="Quote icon">
 
                             <h4 class="reviews-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</h4>
                         </div>
@@ -158,7 +157,7 @@
 
                     <div class="reviews-thumb">
                         <div class="reviews-info d-flex align-items-center">
-                            <img src="images/avatar/medium-shot-smiley-senior-man.jpg" class="about-image custom-border-start img-fluid" class="avatar-image img-fluid" alt="">
+                            <img src="{{ asset('images/avatar/medium-shot-smiley-senior-man.jpg') }}" class="about-image custom-border-start img-fluid" alt="Jack">
 
                             <div class="d-flex align-items-center justify-content-between flex-wrap w-100 ms-3">
                                 <p class="mb-0">
@@ -177,7 +176,7 @@
                         </div>
 
                         <div class="reviews-body">
-                            <img src="images/left-quote.png" class="about-image custom-border-start img-fluid" class="quote-icon img-fluid" alt="">
+                            <img src="{{ asset('images/left-quote.png') }}" class="about-image custom-border-start img-fluid" alt="Quote icon">
 
                             <h4 class="reviews-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</h4>
                         </div>
@@ -186,7 +185,7 @@
                     <div class="reviews-thumb">
 
                         <div class="reviews-info d-flex align-items-center">
-                            <img src="images/avatar/portrait-beautiful-young-woman-studying-table-with-laptop-computer-notebook-home-studying-online-e-learning-system.jpg" class="about-image custom-border-start img-fluid" class="avatar-image img-fluid" alt="">
+                            <img src="{{ asset('images/avatar/portrait-beautiful-young-woman-studying-table-with-laptop-computer-notebook-home-studying-online-e-learning-system.jpg') }}" class="about-image custom-border-start img-fluid" alt="Haley">
 
                             <div class="d-flex align-items-center justify-content-between flex-wrap w-100 ms-3">
                                 <p class="mb-0">
@@ -205,7 +204,7 @@
                         </div>
 
                         <div class="reviews-body">
-                            <img src="images/left-quote.png" class="about-image custom-border-start img-fluid" class="quote-icon img-fluid" alt="">
+                            <img src="{{ asset('images/left-quote.png') }}" class="about-image custom-border-start img-fluid" alt="Quote icon">
 
                             <h4 class="reviews-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</h4>
                         </div>
@@ -213,7 +212,7 @@
 
                     <div class="reviews-thumb">
                         <div class="reviews-info d-flex align-items-center">
-                            <img src="images/avatar/blond-man-happy-expression.jpg" class="about-image custom-border-start img-fluid" class="avatar-image img-fluid" alt="">
+                            <img src="{{ asset('images/avatar/blond-man-happy-expression.jpg') }}" class="about-image custom-border-start img-fluid" alt="Jackson">
 
                             <div class="d-flex align-items-center justify-content-between flex-wrap w-100 ms-3">
                                 <p class="mb-0">
@@ -232,7 +231,7 @@
                         </div>
 
                         <div class="reviews-body">
-                            <img src="images/left-quote.png" class="about-image custom-border-start img-fluid" class="quote-icon img-fluid" alt="">
+                            <img src="{{ asset('images/left-quote.png') }}" class="about-image custom-border-start img-fluid" alt="Quote icon">
 
                             <h4 class="reviews-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</h4>
                         </div>
@@ -240,7 +239,7 @@
 
                     <div class="reviews-thumb">
                         <div class="reviews-info d-flex align-items-center">
-                            <img src="images/avatar/university-study-abroad-lifestyle-concept-satisfied-happy-asian-male-student-glasses-shirt-showing-thumbs-up-approval-likes-studying-college-holding-laptop-backpack.jpg" class="about-image custom-border-start img-fluid" class="avatar-image img-fluid" alt="">
+                            <img src="{{ asset('images/avatar/university-study-abroad-lifestyle-concept-satisfied-happy-asian-male-student-glasses-shirt-showing-thumbs-up-approval-likes-studying-college-holding-laptop-backpack.jpg') }}" class="about-image custom-border-start img-fluid" alt="Kevin">
 
                             <div class="d-flex align-items-center justify-content-between flex-wrap w-100 ms-3">
                                 <p class="mb-0">
@@ -259,7 +258,7 @@
                         </div>
 
                         <div class="reviews-body">
-                            <img src="images/left-quote.png" class="about-image custom-border-start img-fluid" class="quote-icon img-fluid" alt="">
+                            <img src="{{ asset('images/left-quote.png') }}" class="about-image custom-border-start img-fluid" alt="Quote icon">
 
                             <h4 class="reviews-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</h4>
                         </div>
