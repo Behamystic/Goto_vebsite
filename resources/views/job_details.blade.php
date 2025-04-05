@@ -51,11 +51,11 @@
 
                         <div class="d-flex">
                             <p class="mb-0">
-                                <a href="{{ route('job_listings') }} class="badge badge-level">Internship</a>
+                                <a href="{{ route('job_listings') }}" class="badge badge-level">Internship</a>
                             </p>
 
                             <p class="mb-0">
-                                <a href="{{ route('job_listings') }} class="badge">Freelance</a>
+                                <a href="{{ route('job_listings') }}" class="badge">Freelance</a>
                             </p>
                         </div>
                     </div>
@@ -102,7 +102,7 @@
                 <div class="job-thumb job-thumb-detail-box bg-white shadow-lg">
                     <div class="d-flex align-items-center">
                         <div class="job-image-wrap d-flex align-items-center bg-white shadow-lg mb-3">
-                            <img src="images/logos/google.png" class="about-image custom-border-start img-fluid" class="job-image me-3 img-fluid" alt="">
+                            <img src="{{ asset('images/logos/google.png') }}" class="about-image custom-border-start img-fluid" alt="">
 
                             <p class="mb-0">Google</p>
                         </div>
@@ -160,23 +160,23 @@
             </div>
 
             <div class="col-lg-4 col-12 d-flex ms-auto mb-5 mb-lg-4">
-                <a href="{{ route('job_listings') }} class="custom-btn custom-border-btn btn ms-lg-auto">Browse Job Listings</a>
+                <a href="{{ route('job_listings') }}" class="custom-btn custom-border-btn btn ms-lg-auto">Browse Job Listings</a>
             </div>
 
             <div class="col-lg-4 col-md-6 col-12">
                 <div class="job-thumb job-thumb-box">
                     <div class="job-image-box-wrap">
                         <a href="{{ route('job_details') }}">
-                            <img src="images/jobs/it-professional-works-startup-project.jpg" class="about-image custom-border-start img-fluid" class="job-image img-fluid" alt="">
+                            <img src="{{ asset('images/jobs/it-professional-works-startup-project.jpg') }}" class="about-image custom-border-start img-fluid" alt="IT Professional">
                         </a>
 
                         <div class="job-image-box-wrap-info d-flex align-items-center">
                             <p class="mb-0">
-                                <a href="{{ route('job_listings') }} class="badge badge-level">Internship</a>
+                                <a href="{{ route('job_listings') }}" class="badge badge-level">Internship</a>
                             </p>
 
                             <p class="mb-0">
-                                <a href="{{ route('job_listings') }} class="badge">Freelance</a>
+                                <a href="{{ route('job_listings') }}" class="badge">Freelance</a>
                             </p>
                         </div>
                     </div>
@@ -188,7 +188,7 @@
 
                         <div class="d-flex align-items-center">
                             <div class="job-image-wrap d-flex align-items-center bg-white shadow-lg mt-2 mb-4">
-                                <img src="images/logos/salesforce.png" class="about-image custom-border-start img-fluid" class="job-image me-3 img-fluid" alt="">
+                                <img src="{{ asset('images/logos/salesforce.png') }}" class="about-image custom-border-start img-fluid" alt="Salesforce Logo">
 
                                 <p class="mb-0">Salesforce</p>
                             </div>
@@ -228,16 +228,16 @@
                 <div class="job-thumb job-thumb-box">
                     <div class="job-image-box-wrap">
                         <a href="{{ route('job_details') }}">
-                            <img src="images/jobs/marketing-assistant.jpg" class="about-image custom-border-start img-fluid" class="job-image img-fluid" alt="marketing assistant">
+                            <img src="{{ asset('images/jobs/marketing-assistant.jpg') }}" class="about-image custom-border-start img-fluid" alt="Marketing Assistant">
                         </a>
 
                         <div class="job-image-box-wrap-info d-flex align-items-center">
                             <p class="mb-0">
-                                <a href="{{ route('job_listings') }} class="badge badge-level">Senior</a>
+                                <a href="{{ route('job_listings') }}" class="badge badge-level">Senior</a>
                             </p>
 
                             <p class="mb-0">
-                                <a href="{{ route('job_listings') }} class="badge">Part Time</a>
+                                <a href="{{ route('job_listings') }}" class="badge">Part Time</a>
                             </p>
                         </div>
                     </div>
@@ -249,7 +249,7 @@
 
                         <div class="d-flex align-items-center">
                             <div class="job-image-wrap d-flex align-items-center bg-white shadow-lg mt-2 mb-4">
-                                <img src="images/logos/spotify.png" class="about-image custom-border-start img-fluid" class="job-image me-3 img-fluid" alt="">
+                                <img src="{{ asset('images/logos/spotify.png') }}" class="about-image custom-border-start img-fluid" alt="Spotify Logo">
 
                                 <p class="mb-0">Spotify</p>
                             </div>
@@ -289,30 +289,30 @@
                 <div class="job-thumb job-thumb-box">
                     <div class="job-image-box-wrap">
                         <a href="{{ route('job_details') }}">
-                            <img src="images/jobs/coding-man.jpg" class="about-image custom-border-start img-fluid" class="job-image img-fluid" alt="">
+                            <img src="{{ asset('images/jobs/coding-man.jpg') }}" class="about-image custom-border-start img-fluid" alt="Coding Man">
                         </a>
 
                         <div class="job-image-box-wrap-info d-flex align-items-center">
                             <p class="mb-0">
-                                <a href="{{ route('job_listings') }} class="badge badge-level">Junior</a>
+                                <a href="{{ route('job_listings') }}" class="badge badge-level">Junior</a>
                             </p>
 
                             <p class="mb-0">
-                                <a href="{{ route('job_listings') }} class="badge">Contract</a>
+                                <a href="{{ route('job_listings') }}" class="badge">Contract</a>
                             </p>
                         </div>
                     </div>
 
                     <div class="job-body">
                         <h4 class="job-title">
-                        <a href="{{ route('job_details')}}" class="job-title-link">Programmer</a>
+                            <a href="{{ route('job_details') }}" class="job-title-link">Programmer</a>
                         </h4>
                             
                         <div class="d-flex align-items-center">
                             <div class="job-image-wrap d-flex align-items-center bg-white shadow-lg mt-2 mb-4">
-                                <img src="images/logos/twitter.png" class="about-image custom-border-start img-fluid" class="job-image me-3 img-fluid" alt="">
+                                <img src="{{ asset('images/logos/twitter.png') }}" class="about-image custom-border-start img-fluid" alt="Twitter Logo">
 
-                                <p class="mb-0">Twiter</p>
+                                <p class="mb-0">Twitter</p>
                             </div>
 
                             <a href="#" class="bi-bookmark ms-auto me-2">
